@@ -192,14 +192,15 @@ const workExperiences = {
       Skysoftwork
     </a>
   ),
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/ssw.png"),
       date: "March 2025 – June 2025",
       descBullets: [
     "Written clean and well structured HTML, CSS and JavaScript code to create layout,style,functionality of webpages.",
     "Developed new user-facing features using various front-end libraries and frameworks to enhance user engagement and functionality.",
     "Using version control systems like Git to manage code changes, collaborate with team members, and maintain a clean and organized codebase."
   ]
-      }
+      },
+      
   ]
 };
 
@@ -298,50 +299,42 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      title: "Web Development Internship ",
+      subtitle: "Completed Web Development Internship from SKYSOFTWORK",
+      image: require("./assets/images/ssw.png"),
+      imageAlt: "SKYSOFTWORK Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://drive.google.com/file/d/10pPhzfRp9k_Y7E2I7J3E631tLTCW4jrg/view?usp=drive_link"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+        
       ]
     },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+    { 
+      title: "Web Development Udemy Course",  
+      subtitle: "Completed The Web Development Bootcamp 2023 by Angela Yu",
+      image: require("./assets/images/udemy.png"),
+      imageAlt: "Udemy Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certifications",
+          url: "https://drive.google.com/file/d/1hz6JDNOVopAwVntJpLH3cIhbyiW4bLm9/view?usp=drive_link"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "React Developer Trainee",
+      subtitle: "Completed React Developer Trainee from Quest Sampling",
+
+      image: require("./assets/images/QS.png"),
+      imageAlt: "Experience Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Experience Letter",
+          url: "https://drive.google.com/file/d/1_llWOaxX4C5Yz2EJccqUm3v_rfDrlErJ/view?usp=drive_link"
         }
       ]
     }
