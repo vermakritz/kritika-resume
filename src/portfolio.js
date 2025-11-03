@@ -153,7 +153,7 @@ const workExperiences = {
       Cache Digitech Private Ltd
     </a>
   ),
-  companylogo: require("./assets/images/facebookLogo.png"),
+  companylogo: require("./assets/images/cache2.png"),
   date: "Aug 2025 – Present",
   desc: "I work as a React Developer at Cache Digitech, where I design, develop, and maintain modern, responsive web applications.",
   
@@ -171,7 +171,7 @@ const workExperiences = {
       Quest Sampling
     </a>
   ),
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/QS.png"),
       date: "June 2025 – July 2025",
       descBullets: [
     "Developed reusable React components and implemented dynamic dashboards for real-time data analytics.",
@@ -218,28 +218,72 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/cache2.png"),
       projectName: "Cache Digitech Private Ltd",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://www.cachedigitech.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
+      image: require("./assets/images/kritikaverma.png"),
+      projectName: "Portfolio",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://kritika-resume.vercel.app/"
         }
       ]
-    }
+    },
+     {
+      image: require("./assets/images/blc.png"),
+      projectName: "BLC Elevators",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://blcelevators.com/"
+        }
+      ]
+    },
+     {
+      image: require("./assets/images/web_logo1.png"),
+      projectName: "Wedding Project",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://weddingproject-eight.vercel.app/"
+        }
+      ]
+    },
+     {
+      image: require("./assets/images/web_logo1.png"),
+      projectName: "Trello App",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://weddingproject-eight.vercel.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/logok.a..png"),
+      projectName: "Keeper App",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://keeper-app-indol-tau.vercel.app/"
+        }
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
